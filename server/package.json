@@ -1,0 +1,24 @@
+{
+  "name": "pong-multiplayer-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node .",
+    "dev": "ts-node-dev --no-notify ."
+  },
+  "author": "Dario Crosa",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.7.7",
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "colyseus": "^0.12.3",
+    "express": "^4.17.1"
+  }
+}
